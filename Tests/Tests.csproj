@@ -57,7 +57,7 @@
     <Compile Include="TableCells.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\W3SchoolsFramework\Pages.csproj">
+    <ProjectReference Include="..\Pages\Pages.csproj">
       <Project>{aa67c6fc-41ed-4935-9d76-fa286b4ea685}</Project>
       <Name>Pages</Name>
     </ProjectReference>
