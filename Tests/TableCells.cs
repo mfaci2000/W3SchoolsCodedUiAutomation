@@ -20,13 +20,15 @@ namespace Tests
     [CodedUITest]
     public class TableCells
     {
+
         // private string valueToVerify = "CANADA";
         public TableCells()
         {
            
         }
-
-        [TestMethod]
+        // C:\qwalisoft\DataSources\Data.csv
+        // "|DataDirectory|\\data.csv"
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", @"C:\qwalisoft\DataSources\Data.csv", "data#csv", DataAccessMethod.Sequential), DeploymentItem("data.csv"), TestMethod]
         public void VerifyThatTheCellTableContainsValue()
         {
             // (Current State) === Action ===> (Next State)
