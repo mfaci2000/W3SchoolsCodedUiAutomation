@@ -10,6 +10,7 @@ using Microsoft.VisualStudio.TestTools.UITest.Extension;
 using Keyboard = Microsoft.VisualStudio.TestTools.UITesting.Keyboard;
 using W3SchoolsFramework.UIMapAllPagesClasses;
 //using W3SchoolsFramework.UIMapAllPagesClasses;
+// UIMapAllPages.UIW3SchoolsOnlineWebTuWindow.UIW3SchoolsOnlineWebTuDocument.UISearchEdit
 
 namespace Tests
 {
